@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICT3101_Calculator", "ICT3101_Lab1\ICT3101_Calculator.csproj", "{555D1703-5199-4C5B-8B84-38369F77BF10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICT3101_Calculator.UnitTests", "ICT3101_Calculator.UnitTests\ICT3101_Calculator.UnitTests.csproj", "{6CE185C5-0A50-40FC-9694-3ED30F80A0F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{555D1703-5199-4C5B-8B84-38369F77BF10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{555D1703-5199-4C5B-8B84-38369F77BF10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{555D1703-5199-4C5B-8B84-38369F77BF10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{555D1703-5199-4C5B-8B84-38369F77BF10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CE185C5-0A50-40FC-9694-3ED30F80A0F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CE185C5-0A50-40FC-9694-3ED30F80A0F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CE185C5-0A50-40FC-9694-3ED30F80A0F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CE185C5-0A50-40FC-9694-3ED30F80A0F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
