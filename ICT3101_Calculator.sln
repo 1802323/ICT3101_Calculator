@@ -1,9 +1,15 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICT3101_Calculator", "ICT3101_Lab1\ICT3101_Calculator.csproj", "{555D1703-5199-4C5B-8B84-38369F77BF10}"
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ICT3101_Calculator", "ICT3101_Lab1\ICT3101_Calculator.csproj", "{555D1703-5199-4C5B-8B84-38369F77BF10}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICT3101_Calculator.UnitTests", "ICT3101_Calculator.UnitTests\ICT3101_Calculator.UnitTests.csproj", "{6CE185C5-0A50-40FC-9694-3ED30F80A0F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ICT3101_Calculator.UnitTests", "ICT3101_Calculator.UnitTests\ICT3101_Calculator.UnitTests.csproj", "{6CE185C5-0A50-40FC-9694-3ED30F80A0F6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E4625E95-9FF9-44BA-B417-00D87C4295D1}"
+	ProjectSection(SolutionItems) = preProject
+		.travis.yml = .travis.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,5 +25,11 @@ Global
 		{6CE185C5-0A50-40FC-9694-3ED30F80A0F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6CE185C5-0A50-40FC-9694-3ED30F80A0F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6CE185C5-0A50-40FC-9694-3ED30F80A0F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B3AF050F-3EE6-48D8-9EAC-4E400659BC6D}
 	EndGlobalSection
 EndGlobal
