@@ -6,11 +6,13 @@ namespace ICT3101_Calculator.UnitTests
     public class CalculatorTests
     {
         private Calculator _calculator;
+        private IFileReader _fileReader;
         [SetUp]
         public void Setup()
         {
             // Arrange
             _calculator = new Calculator();
+            _fileReader = new FileReader();
         }
         [Test]
         public void Add_WhenAddingTwoNumbers_ResultEqualToSum()
@@ -48,10 +50,13 @@ namespace ICT3101_Calculator.UnitTests
             Assert.That(result, Is.EqualTo(2));
         }
 
-        //[Test]
-        //public void Divide_WithNegativeInputs_ResultThrowArgumentException()
-        //{
-            //Assert.That(() => _calculator.Divide(0, 0), Throws.ArgumentException);
-        //}
+        [Test]
+        [TestCase(1, 40)]
+        [TestCase(0, -0)]
+        public void MagicNumber_WhenGeneratingMagicNumber_ResultEqualtoMagicNum(double a, double b)
+        {
+            double result = _calculator.GenMagicNum(a, _fileReader);
+            Assert.That(result, Is.EqualTo(b));
+        }
     }
 }

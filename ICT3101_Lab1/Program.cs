@@ -46,6 +46,7 @@ namespace ICT3101_Lab1
                 Console.WriteLine("\tm - Multiply");
                 Console.WriteLine("\td - Divide");
                 Console.WriteLine("\tf - Factorial");
+                Console.WriteLine("\tg - Get Magic Number");
                 Console.Write("Your option? ");
                 string op = Console.ReadLine();
                 try
